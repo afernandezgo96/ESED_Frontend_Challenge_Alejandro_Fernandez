@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form-box{
+    border-style: solid;
+    border-color: red;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#logo{
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 33%;
+    margin-bottom: 10px;
+    float:right
+}
+
+.logo-div{
+    width: 100%;
+}
+
+.form-group{
+    margin: auto;
+    margin-bottom: 3rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.label-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.label-help{
+    font-size: 15px;
+}
+
+.button-next{
+    background-color: #328c29;
+    color: white;
+    width: 50%;
+    float: right;
+}
+
+select , input{
+    background-color: #ecebec;
+    border-style: none;
+    width: 100%;
+}
+
