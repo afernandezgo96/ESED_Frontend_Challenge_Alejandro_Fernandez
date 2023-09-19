@@ -4,25 +4,42 @@ body{
 
 #form-box{
     border-style: solid;
-    border-color: red;
-    width: 50%;
+    border-color: #d71b55;
+    border-radius: 5px;
+    border-width: 3px;
+    width: 70%;
     margin: auto;
     margin-top: 50px;
+    min-width: 250px;
 }
 
 #logo{
     margin-top: 20px;
     margin-right: 20px;
-    width: 33%;
-    margin-bottom: 10px;
-    float:right
+    width: 25%;
+    max-width:364px;
+    max-height:138px;
+    min-width:182px;
+    min-height:69px;
+    float:right;
 }
 
-.logo-div{
+#logo-div{
+    margin-bottom: 20px;
+    overflow: auto;
     width: 100%;
 }
 
 .form-group{
+    margin: auto;
+    margin-bottom: 3rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.form-button{
     margin: auto;
     margin-bottom: 3rem;
     width: 80%;
@@ -43,12 +60,23 @@ body{
     background-color: #328c29;
     color: white;
     width: 50%;
-    float: right;
+    margin-left: auto;
+    font-size: 150%;
+    height: 50px;
+    border: solid #328c29;
+    transition: 0.8s;
 }
 
-select , input{
+.button-next:hover{
+    background-color: white;
+    color: black;
+    border-color: #328c29;
+}
+
+select, input{
     background-color: #ecebec;
     border-style: none;
     width: 100%;
+    height:40px;
+    text-indent: 2%;
 }
-
